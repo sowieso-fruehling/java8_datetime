@@ -26,6 +26,5 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.projectlombok:lombok:1.16.14')
-	testCompile('org.springframework.boot:spring-boot-starter-test')
-	compile ('com.fasterxml.jackson.datatype:jackson-datatype-jsr310') // needed for MoreFancyPerson way of deserializing
+	testCompile('org.springframework.boot:spring-boot-starter-test')	
 }
